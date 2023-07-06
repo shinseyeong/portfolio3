@@ -1,0 +1,828 @@
+@charset "utf-8";
+
+/*서브 전체*/
+.sub { position:relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 80px auto;
+    font-family:
+        "맑은 고딕", "Malgun Gothic", "나눔고딕", "Nanum Gothic", "Dotum", sans-serif;
+    line-height: 1.2;
+}
+
+.subwrap {
+    width: 980px;
+    height: 11053px;
+    margin: 0 auto; 
+}
+
+/*서브 맨위 카테고리 설명*/
+.locationwrap { position:relative;
+    width: 980px;
+    height: 35px;
+    border-bottom: 1px solid #666;
+}
+
+.location {
+    padding: 11px 0 0 0;
+    font-size: 11px;
+    color: #333;
+    width: 980px;
+    height: 13px;
+}
+
+.location li {
+    float: left;
+    padding: 0 12px 0 16px;
+    background: url("../img/sub/locationArrow.png") no-repeat left 3px;
+    letter-spacing: -1px;
+}
+
+.location .loc-menu1 {
+    background: none;
+    padding: 0 12px 0 10px;
+}
+
+.location .loc-menu1 a { color:#666;
+    padding: 0 9px 0 0;
+    background: url("../img/sub/location.png") no-repeat right -174px;
+    cursor: pointer;
+}
+
+.location .loc-menu2 a {color:#666;
+    padding: 0 9px 0 0;
+    background: url("../img/sub/location.png") no-repeat right -174px;
+    cursor: pointer;
+}
+
+.location .loc-menu3 a {color:#666;
+    padding: 0 9px 0 0;
+    background: url("../img/sub/location.png") no-repeat right -174px;
+    cursor: pointer;
+}
+
+.location .loc-menu4 a {color:#666;
+    padding: 0 9px 0 0;
+    background: url("../img/sub/location.png") no-repeat right -174px;
+    cursor: pointer;
+}
+
+/*섹션1-상품 타이틀 */
+.protitle-wrap{padding: 15px 0 16px 10px;
+    table-layout: fixed; 
+    width: 980px; height:91px;
+    box-sizing: border-box; position:relative;}
+
+.titlewrap {width:780px; height:60px; }
+
+.titlewrap h2 {padding: 0 0 10px 0;
+font-size: 22px;
+font-weight: bold;
+color: #333;
+letter-spacing: -1px;
+line-height: 22px;}
+
+.titlewrap span{display: inline-block;
+margin-right: 5px;
+letter-spacing: 0;
+font-weight: bold; font-size:12px;
+}
+
+.titlewrap span img { display: inline-block;
+    background: url("../img/sub/money.png") no-repeat left top;
+    vertical-align: middle;    width: 39px;
+    height: 15px;
+    background-position: 0 -200px;
+}
+
+/*섹션1-상품 타이틀-별점,리뷰 */
+.protitle-wrap .rankwrap {width:190px; height:60px; float:right; margin:-60px 0 0 0; }
+
+.rankwrap > ul {width:190px; height:19px; margin:20px 0 0 0; float:left;}
+.rankwrap li { width:118px; height:19px; padding: 0; 
+    margin: 0; float:left;}
+
+.rankwrap span {
+font-weight: normal;
+display: inline-block;
+line-height: 1.4;
+margin: 0 -10px 0 6px;
+}
+
+.rankwrap li  a {font-size: 16px;
+color: #777;}
+
+.star-rate {display: inline-block;
+    height: 16px;
+    background: url("../img/sub/star-rate.png") no-repeat;
+    background-position: 0 -16px; float: left;
+    width: 85px;
+    margin: 0 0 0 10px;}
+
+
+.rankwrap .review {    float: left; width:48px; height:16px;
+    padding: 0 0 0 10px;
+    background: url("../img/sub/li.png") no-repeat left 4px;
+    margin: 0 0 0 10px;
+    text-align: right; 
+} 
+
+.review a {display: inline-block;
+    width: 38px;
+    height: 12px;
+    background: url("../img/sub/review.png") no-repeat left top;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+   }
+
+/*섹션2-서브 책이미지, 소개페이지*/   
+.subbook-wrap {width:980px; height:544px; background-color:#fff; position:relative;}
+
+/*섹션2-서브 바탕 책이미지*/
+.sub_bd {width:100%; height:611px; background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)),url("../img/sub/subbook-img_XL.jpg"); background-size:cover; background-position:center; position:absolute; top:0; left:0; }
+
+/*섹션2-서브 책이미지, 소개페이지----왼쪽부분*/
+.subbook-left {width:250px; height:500px;  padding: 20px; float:left;}
+
+.subbook-img {width:200px; height:290px;}
+
+.subbook-img img{width:100%; height:100%;}
+
+/*섹션2-서브 책 크게보기, 미리보기*/
+.subbook-view {width: 207px;  margin: 5px auto 20px auto;   border-top: 1px solid #c6c9cd; border-right: 1px solid #a8a8a8;  border-bottom: 1px solid #a8a8a8; border-left: 1px solid #c6c9cd; font-size: 0;   line-height: 0; }
+
+.subbook-view  ul{width: 207px; height: 35px;}
+
+.subbook-view  ul li {width:103px; height:35px;  background-color: #fafafa; float:left;}
+
+.subbook-view  ul li a{display: inline-block;  height: 25px; padding: 10px 0 0 0; width: 103px;}
+
+.subbook-view  ul li a> .view-btn1{  margin: 0 auto; display:block; width: 57px;   height: 14px;  background-position: 0 0; display: block; background: url("../img/sub/glass.png") no-repeat left top; font-size: 0; line-height: 0;}
+
+.view-btn2  {float: left; border-left: 1px solid #c6c9cd; text-align: center;}
+
+.view-btn2 a  { display: inline-block;  height: 25px;  padding: 10px 0 0 0;  width: 103px;}
+
+.view-btn2 a span{  margin: 1px auto 0 auto; width: 58px;height: 14px; display: block; background: url("../img/sub/glass.png") no-repeat left top;  background-position: 0 -30px; font-size: 0; line-height: 0;}
+
+/*섹션2- 서브 책 분야별, 판매지수, 공유하기 창----------분야별*/
+.weekbox {width: 207px; height:32px; margin: 0 auto 4px auto; background-color: #f9f9f9; text-align: center; }
+
+.weekbox p {display: inline-block;
+    margin: 10px 0 0 -25px; width:72px; height:22px; 
+    padding-left: 18px;  
+    background: url("../img/sub/location.png") no-repeat  left -270px;}
+
+.weekbox p a { color: #777;  font-size:12px; width:71px; height:22px;display:block;}
+
+.weekbox > p >a >span{color: #e15148; padding: 0 0 0 3px;}
+
+/*섹션2-서브 책 분야별, 판매지수, 공유하기 창----------판매지수*/
+.saleindex {width: 207px; height:32px; margin: 0 auto 4px auto; background-color: #f9f9f9; text-align: center;margin: 0 auto 4px auto; font-size:12px;}
+.saleindex p{width:207px; height:32px; padding-top:9px; display:inline-block;}
+.saleindex p a{width:207px; height:32px; display:block;  }
+
+.saleindex span{color: #e15148; }
+
+.saleindex  img {width:10px; height:11px;display:inline-block;}
+
+/*섹션2-서브 책 분야별, 판매지수, 공유하기 창---------------공유하기*/
+.sharewrap {width:207px; height:32px; margin: 0 auto 4px auto; background-color: #f9f9f9;padding: 6px 0;}
+
+.sharearea { width:98px; padding-top:2px; height:20px; text-align: center; margin: 0 auto;}
+
+.sharearea p {  font-size:12px; color: #777; display:inline; 
+}
+
+.shareTwitter {    background: url("../img/sub/share.png") no-repeat; 
+    width: 20px;
+    height: 20px;
+    display: inline;
+    vertical-align: middle;
+    text-indent: -1000em;
+    overflow-x: hidden;
+    border: 0;
+    margin-left: 5px;
+    font-size: 0;
+    float: right;}
+
+.shareFacebook{    background: url("../img/sub/share.png") no-repeat;   background-position: 0 -20px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+    vertical-align: middle;
+    text-indent: -1000em;
+    overflow-x: hidden;
+    border: 0;
+    margin-left: 5px;
+    font-size: 0;
+    float: right;
+}
+
+/*섹션2- 서브 책 오른쪽부분(책이름, 저자, 가격, 등)*/
+.subbook-right{width:690px; height:533px; float: right; color: #777;}
+
+.bookinfo {width:680px; height:13px;  margin: 10px 0 23px 10px; color: #333;}
+
+.bookinfo ul { margin-bottom: 7px; font-size: 11px; color: #777;}
+
+.bookinfo ul > li {float: left;
+padding: 0 10px;
+background: url("../img/sub/li.png") no-repeat left 3px;}
+
+.bookinfo ul> li a{text-decoration: none;  color: #777;}
+
+/*섹션2- 서브 책 정 가격부분*/
+.basicprice {width:680px; height:35px;  padding: 10px 0; margin: 0 0 0 10px;border-top: 1px solid #e5e5e5;}
+
+.tb-priceInfo {width:670px; height:14px; font-family: "맑은 고딕", "Malgun Gothic", "나눔고딕", "Nanum Gothic", "Dotum", sans-serif; font-size:12px;}
+
+.tb-priceInfo > tr {width:670px; height:14px;}
+.tb-priceInfo tr th{width:76px; height:14px; }
+.tb-priceInfo td {width:504px; height:14px; }
+
+/*섹션2- 서브 책 오른쪽 바닥부분-----(새책)*/
+.infolast-wrap {width: 680px; height:430px; margin: 5px 0 30px 0; }
+
+.infolast-tab {width:670px; height:78px; margin: 0 0 10px 10px; }
+
+.infolast-tab ul {width:177px; height:78px;  float:left;}
+
+.infolast-tab li {float: left; width: 177px;margin-left: 4px;  cursor: pointer;  background: url("../img/sub/left-tab-ul.png") no-repeat left top;}
+
+.tab-box{background:url("../img/sub/newbook.png") no-repeat left top; padding: 10px;
+    width: 177px; 
+    height: 78px;
+}
+
+.tbbox-arrow{position: absolute;  left: 39%;  top: 163px; display: inline-block;  width: 11px;  height: 6px;background: url("../img/sub/tab-arrow.png") no-repeat right 0;}
+
+.tt-title {  height: 15px; margin-top: -3px;  }
+
+.tt-price{margin-top: 8px;font-size: 16px; color: #ed554a; font-weight:bold; line-height: 1.2;}
+
+.persale {font-size: 12px;line-height: 1.2; font-weight:normal;    
+    color: #555;}
+
+.savepoint {margin-top: 1px;color: #555;     line-height: 1.2;}
+
+/*섹션2- 서브 책 오른쪽 바닥부분-----(각종혜택들)*/
+.priceinfo-wrap{width: 680px; height:156px; padding: 10px 0 0 0;margin: 0 0 0 10px; }
+
+.tb-benefitInfo {width: 680px; height:40px; }
+
+.addbenefit {width:680px; height:33px;}
+
+.tb-benefitInfo tr {width: 680px; height:40px;  }
+.tb-benefitInfo tr:last-child {height:33px;}
+
+.tb-benefitInfo th{width:75px; height:39px; padding: 8px 0 0 0; font-size:12px; color: #333;  font-weight: bold; vertical-align: top;}
+
+.tb-benefitInfo td {height:40px; width:604px; color: #555;}
+
+.tb-benefitInfo td ul {width:604px; height:32px; line-height: 1.2; font-size:12px;}
+
+.tb-benefitInfo td ul li {float: left;
+height: 15px;
+padding: 0 10px 10px 10px;
+background: url("../img/sub/li.png") no-repeat left 3px;
+}
+.tb-benefitInfo td ul li:first-of-type{float: left;  height:32px; padding: 0 10px 0 0; background: none;}
+
+.tb-benefitInfo td ul li a {
+    text-decoration: none;
+    color: #555; font-size:12px;
+}
+#bene-list1 {display: inline-block;  padding-right: 10px; background: url("../img/sub/location.png") no-repeat right 3px;  line-height: 1;}
+
+#bene-list2 {display: inline-block;  padding-right: 10px;   background: url("../img/sub/location.png") no-repeat right 3px;   line-height: 1;}
+
+#fontviolet{display: inline-block; font-weight: bold; font-size: 12px;  color: #7a45e7; padding-right: 3px;}
+
+#fontblue {display: inline-block;font-size: 12px;color: #17a9ef; font-weight: bold; padding-right: 1px;}
+
+
+/*섹션2- 서브 책 오른쪽 바닥부분-----(각종혜택들)-------------마이페이지 설명란*/
+#small-tr{width: 680px; height:22px; }
+
+#small-tr #small-th{width:76px; height:22px;  text-align: left;color: #333; font-weight: bold;}
+
+#small-td{padding: 8px 0 0 0; height:22px; width:604px; color: #555; }
+
+#small-ul{height:14px; width:604px; }
+
+#small-li {height:14px; width:604px; }
+
+#pointcolor { display: inline-block; color: #ef544d; font-weight: bold;padding-right: 1px;}
+
+
+.addbenefit th {width:76px; height:33px; font-size:12px; color: #333;}
+
+.addbenefit td{ width:604px; height:33px;  color: #555; }
+
+.addinfo {width:604px; height:25px; }
+
+
+/*섹션2 - 상품권 광고 배너*/
+.goodsbanner {width:680px; height:36px; margin: 8px 0 10px 0px;  font-size: 0; line-height: 0; }
+
+.goodsbanner img {width:100%; height:100%;}
+
+
+/*섹션2 -배송정보, 수량*/
+.shopinfo{width:680px; height:77px; padding: 0 0 15px 0; margin: 0 0 0 10px;}
+
+.tb_shop-price {width:680px; height:33px; }
+
+.tb_shop-price tr {width:680px; height:33px; }
+
+.tb_shop-price th {width:76px; height:33px; color: #555; font-size: 12px;}
+
+.shop-ul {width:604px; height:25px;  padding: 8px 0 0 0;}
+
+#shop-delivery {width:317px; height:25px;  float: left; font-size:12px; color:#555; padding: 0 10px 10px 0;}
+
+#shop-delivery .strong {font-weight: bold;}
+
+.shop-ul li {float: left; height: 15px; padding: 0 10px 10px 10px; background: url("../img/sub/li.png") no-repeat left 3px; font-size:12px; color:#555}
+
+#re{display: inline-block; width: 13px;height: 13px;margin: 0 5px;background: url("../img/sub/location.png") no-repeat left -90px; font-size: 0; line-height: 0;  }
+
+.quantity {width:670px; height:29px; }
+
+.quantity th {width:76px; height:29px;  padding: 8px 0 0 0;
+ color: #555;    font-weight: bold; vertical-align: top;}
+
+.quantity td{padding: 8px 0 0 0; width:590px; height:29px;
+color: #555;}
+
+.sectionoption {width:590px; height:21px; }
+
+
+.option-box{width:82px;height:21px;  }
+
+#minus {width:21px; height:21px; margin: 0 -1px 0 0;background-position: 0 0;   text-indent: -9999px;}
+
+.option-box a{ float: left;width: 21px; height: 21px;  background: url("../img/sub/mius-plus.gif") no-repeat;  ;}
+
+
+#plus { width:21px; height:21px; margin: 0 0 0 -1px; background-position: -22px 0;text-indent: -9999px;}
+.option-box input  {float: left;    width: 34px;  height: 20.9px;   margin: 0;  padding-top: 4px;border: 1px solid #ccc; text-align: center;  font-weight: bold;  font-size: 11px;  color: #888; line-height: 1.5;}
+
+/*섹션2-구매하기 버튼 부분*/
+.bookpurchase {width:680px; height:45px; background-color:#ccc; margin: 15px 0 0 10px;}
+
+.bookpurchase ul {width:680px; height:45px;}
+
+.bookpurchase ul li { float: left; width:138px;
+    position: relative; }
+
+.bookpurchase ul li a{margin-right: 4px; font-weight: bold; color: #fff; font-size: 14px;text-decoration: none;}
+
+.btn-grey { border: 1px solid #707070;  background-color: #707070; display: inline-block;  width: 132px;height:45px;;margin: 0 2px 6px 0;  padding: 10px 0 0 0; text-align: center;}
+
+.btn-direct{border: 1px solid #e15148;  background-color: #e15148; display: inline-block; width: 132px;height:45px;;margin: 0 2px 6px 0;  padding: 10px 0 0 0; text-align:center}
+
+.btn-like{width: 45px; height:45px;font-weight: bold;color: #666;font-size: 12px;text-decoration: none;border: 1px solid #ccc;background-color: #fff;display: inline-block;}
+
+.btn-like{ font-size: 0; text-indent: -9999px;}
+
+.btn-like .num{position:absolute; left: 13px;top: 15px;   display: inline-block;width: 16px;
+ height: 14px;background: url("../img/sub/heart.png") no-repeat;}
+
+ /*섹션3- 이벤트, 기획 칸*/
+ .giftevent-view {width:980px; height:132px; margin: 5px 0 30px 0;background-color:lightskyblue; }
+
+ .giftevent-area {width:980px; height:132px;   border: 1px solid #a8a8a8; display:flex;}
+
+ .gifttab-box{ float: left;  width: 160px; height:130px; }
+
+ .gifttab {width: 160px; height:130px;}
+
+ .gifttab li{width:160px; height:42px; background-color: #fff; position:relative; display: table;
+    width: 160px;
+    height: 44px;
+    padding: 0;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #c3c3c3;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;}
+
+ .gifttab li span {    display: inline-block;
+    position: absolute;
+    right: -1px;
+    top: 17px;
+    width: 7px;
+    height: 12px;
+    background: url("../img/sub/giftevent-span.png") no-repeat right center;
+    z-index: 5;
+}
+
+.tabbox { padding: 0 0 0 30px;width:160px; height:43px;}
+
+.tabbox > p a{font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00a2ff; line-height:43px;}
+
+.tabbox > p{font-size: 12px;
+color: #555; line-height:43px;}
+
+.giftevent-contnent {float: left;
+    position: relative;
+    width: 549px;
+    height: 130px;
+    overflow: hidden; }
+
+.eventadbanner{width:268px; height:130px;  float:left;  position: relative; top:0; left:0;}
+
+.eventadbanner a{width:268px; height:130px;}
+
+.eventadbanner a img{width:100%; height:100%}
+
+/*섹션4 - 책정보,이벤트/기획전 추천도서 100자평/리뷰 교환/환불/배송 */
+.subcontent_wrap {width:980px; height:10200px; padding-top: 37px; margin-top: 20px;}
+
+.ulcontent_wrap{width:980px; height:39px; }
+
+.ulcontent_wrap ul {width:980px; height:39px; display:flex; }
+
+.tabmenu {width:196px; height:39px;   float: left;   margin-right: -1px;  border: 1px solid #e8e8e8;  border-top: 1px solid #f3f3f3;  border-bottom: 1px solid #cdcdcd;  color: #0c0c0c; text-align: center;     padding: 10px 0;   font-weight: bold; font-size: 12px;  text-decoration: none;
+line-height: 15px;  text-align: center; background-color: #f8f8f8;}
+
+.selec {border-color: #848484;     border-color: #848484; color: #fff; background-color: #848484; opacity: 95;}
+
+.tabmenu a{color: #0c0c0c;}
+
+/*섹션5 - 아래 책 카테고리소개*/
+
+.detail_wrap{padding-top:5px;width:980px; height:130px;}
+
+.detail_wrap h3{margin-top: 30px;  padding: 0 0 7px 20px;   border-bottom: 1px solid #777;     font-size: 20px;  font-weight: bold; color: #333;   letter-spacing: -1px;}
+
+.fiedbox {width:980px; height:24px;  width: 940px; margin-top: 20px;padding: 0 20px; }
+
+.fiedcell{width:923px; height:14px;  padding: 0 15px 0 8px;
+    margin-bottom: 10px;
+    background: url("../img/sub/fiedcell.gif") no-repeat left center;}
+
+.fiedcell ul {width:900px; height:14px;}
+
+.fiedcell li{float: left;  height:14px; line-height:14px;
+padding: 0 19px 0 12px;
+background: url("../img/sub/location.png") no-repeat right -202px; 
+color: #555;}
+
+.fiedcell li a{line-height:14px; color: #555; }
+
+.detailinfo_wrap {width:980px; height:9977px; }
+
+.detailinfo_wrap h3{position: relative; margin-top: 30px;padding: 0 0 7px 20px; border-bottom: 1px solid #777;}
+
+.detailtitle {width:980px; height:188px; padding: 20px 20px 0 20px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5; position:relative;
+    text-align: justify; overflow:hidden;}
+
+/*섹션5 -펼쳐보기, 접어보기 부분*/
+.txt_spread { position:absolute; bottom:0; right:5%; display:block;  margin-left: 5px; padding-right: 13px;  background: url("../img/sub/location.png") no-repeat right -11px; line-height: 1;   font-size: 12px;}
+
+.txt_close { position:absolute; bottom:0; right:5%; display:none;   margin-left: 5px; padding-right: 13px;  background: url("../img/sub/location.png") no-repeat right -11px; line-height: 1;   font-size: 12px;}
+
+/*섹션 6 - 관련이미지*/
+.detailcontent { width: 980px; padding: 18px 0; height:4474px;}
+
+.detailcontent .imgbox{padding: 2px 70px 2px 20px; font-size: 14px; height:4438px;  color: #555; line-height: 1.5;text-align: justify; }
+
+.detailcontent .imgbox > p {width:890px; height:4434px; }
+
+.detailcontent .imgbox > p img{width:100%; height:100%;}
+
+/*섹션 7 -저자소개*/
+
+.writeinfo {width:980px; height:194px;  font-size: 12px; color: #666;}
+
+.writeinfo-header {width:980px; height:40px; position: relative;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9; }
+
+.writeinfo-header a{position: absolute; right: 20px; top: 13px; display: inline-block; padding-right: 10px;  font-size: 11px;  color: #777; letter-spacing: -1px; background: url("../img/sub/location.png") no-repeat right -202px;}
+
+.writeinfo-header span{display: inline-block;
+margin-right: 10px;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: -1px;
+color: #333;}
+
+.writeinfo-bottom {width:980px; height:154px;  border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;}
+
+.write_left{float: left; width: 180px; height:39px; padding: 0 20px; }
+
+.writeinfo-left {width: 180px; height:39px; }
+
+.writeinfo-left th{width: 80px; height: 29px; padding: 15px 0 0 0; text-align: left; font-weight: normal;}
+
+.writeinfo-left td {padding: 15px 0 0 0; text-align: right; width:100px; height:29px;}
+
+.write_right {width:740px; height:152px;  position: relative; float:right;   border-left: 1px solid #eee;  padding: 15px 20px 30px 20px;}
+
+.write_right p {width:719px; height:97px; font-size: 13px;
+    color: #777; overflow:hidden;
+    text-align: justify;
+    line-height: 1.5;}
+
+/*섹션8 - 작가의 다른 책 모음*/
+.writeother { margin-top: 5px; width: 978px; height:353px; border: 1px solid #e3e3e3;   position: relative;}
+
+.other_title {width:978px; height:41px; position: relative;  padding: 12px 20px; border-bottom: 1px solid #eee; background-color: #f9f9f9;}
+
+.other_title p {font-size: 14px; font-weight: bold; letter-spacing: -1px;}
+
+.bt_allview { position: absolute; right: 20px; width:50px; height:13px;  top: 13px;  display: inline-block;  padding-right: 10px;  font-size: 11px;  color: #777;  letter-spacing: -1px;   background: url("../img/sub/location.png") no-repeat right -202px;}
+
+.otherlist {width:978px; height:289px;  padding: 0 0 25px 0; overflow:hidden;}
+
+.otherlist ul{width: 930px; margin: 20px auto 0 auto; height:264px; position:relative;}
+
+.otherlist ul li{width:155px; height:244px;  float:left; margin:20px 0 0 0;}
+
+.picwrap {position: relative; width: 116px; height: 176px;  margin: 0 auto; border: 1px solid #ccc; z-index: 2;}
+
+.picwrap a {width: 116px; height: 176px;}
+
+.picwrap a img {width:100%; height:100%;}
+
+.bookcart { position:absolute; bottom:0; left:0; display: inline-block; width: 116px; height: 30px; background: url("../img/sub/bookcart.png") no-repeat center; display:none;}
+
+.txtwrap {width: 147px; height:51px; margin: 15px auto 0 auto; }
+
+.txtwrap p { width:147px; height: 32px; text-align:center;  line-height: 1.3; font-size: 12px; list-style: none;}
+
+.txtwrap p a { color: #777;}
+
+.pricebox {width:147px; height:14px;text-align:center;}
+
+.pricebox span{text-align:center;}
+
+.pricebox .delprice {width:60px; height:14px; line-height:12px; display: inline-block; color: #777; font-size:12px; text-decoration: line-through;}
+
+.pricebox .saleprice { width:60px ;height:14px; line-height:12px;display: inline-block; font-weight: bold; font-size:12px; color: #e5716a;}
+
+.otherlist .txt_spread{position: absolute;
+right: 20px;
+bottom: 0;
+display: inline-block;
+margin-left: 5px;
+padding-right: 13px;
+background: url("../img/sub/location.png") no-repeat right -11px;
+line-height: 1;
+font-size: 12px;}
+
+/*섹션 9-번역가소개*/
+.writer_info {width:980px; height:194px;   margin-top: 20px;}
+
+
+/*섹션 10 - 상품고시정보*/
+.changerefund {width:980px; height:219px; 
+ margin-top: 15px; color: #666;  border: 1px solid #eee; border-left: 0;  line-height: 1.7;}
+
+.changerefund tr{width:979px;}
+
+.changerefund tr:nth-child(3) > th{height:80px; }
+
+.changerefund th {padding: 8px 0 10px 20px; background: #f9f9f9;  border-bottom: 1px solid #eee;
+border-left: 1px solid #eee;  width:190px; font-size:12px;}
+.changerefund td  {padding: 8px 0 10px 20px; border-bottom: 1px solid #eee; width:289px; font-size:12px;}
+
+/*섹션 11-이벤트 기획*/
+.eventplan {width:980px; height:209px;  margin-top: 20px;}
+.eventplan a {margin-bottom:5px; width:980px; height:102px; display:block;} 
+.eventplan a img {width:100%; height:102px;} 
+
+/*섹션 12- 각 분야의 많은 회원이 구입한 책 모음- 자기계발, 책 조회, 책 구매*/
+.customerwrap {width:980px; height:932px;  padding-top: 5px;}
+
+.detailcustomer_wrap {width:980px; height:923px;  margin-top: 30px;}
+
+/*섹션 12-자기계발 분야의 회원이 구입한 책 모음*/
+.smart {width:980px; height:310px;}
+
+.smart p {font-size: 14px; font-weight: bold; letter-spacing: -1px;color: #555;
+padding: 15px 20px 13px 8px;  border-bottom: 1px solid #eaeaea; background: url("../img/sub/fiedcell.gif") no-repeat left center;}
+    
+.smart .area {width:980px; height:265px; padding: 0 32px 0 30px; position:relative;}
+
+.smart .areawrap {width:918px; height:265px;  margin:0 auto; float:left; position:relative; }
+
+.smart .viewport {width:918px; height:265px; position:absolute;  overflow:hidden;}
+
+.smart .viewport ul {width: 100%; float:left; position: relative;}
+
+.smart .viewport li { margin: 15px 0 0 0; width:153px; height:234px; ; float:left;}
+
+.smart .viewport .imgbox { width: 120px; height: 174px; margin: 0 auto; }
+
+.smart .viewport .imgbox> a img{width: 120px; height: 174px;}
+
+.smart .viewport .txt_wrap{ width: 135px; height:54px; margin: 6px auto 0 auto; }
+
+.smart .txt_wrap >.txt a{height: 34px; width:135px; color: #555;  font-size: 12px; line-height: 17px; text-align: center; overflow: hidden;}
+
+.smart >.area> a { width: 34px; height: 40px; ;}
+.smart .prev{ position:absolute; top:50%; left:0;    background: url("../img/rec-arrow.png") no-repeat 21px -18px;; width: 16px;   content: ""; height: 24px; }
+
+ .smart .next{ position:absolute; top:50%; right:0;  background: url("../img/rec-arrow.png") no-repeat -12px -18px;;  width: 16px; content: ""; height: 24px;  }
+
+/*섹션 12 - 이 책을 조회한 회원이 구입한 책 목록*/
+.viewcust .area {width:980px; height:265px;padding: 0 32px 0 30px; position:relative;}
+
+.viewcust .view-areawrap {width:918px; height:265px;  margin:0 auto; float:left; position:relative; }
+
+.viewcust .viewport {width:918px; height:265px; position:absolute; ; overflow:hidden;}
+
+.viewcust .viewport ul {width: 100%; float:left; position: relative;}
+
+.viewcust .viewport li { margin: 15px 0 0 0; width:153px; height:234px; float:left;}
+
+.viewcust .viewport .imgbox { width: 120px; height: 174px; margin: 0 auto; }
+
+.viewcust .viewport .imgbox> a img{width: 120px; height: 174px;}
+
+.viewcust .viewport .txt_wrap{ width: 135px; height:54px; margin: 6px auto 0 auto; }
+
+.viewcust .txt_wrap >.txt a{height: 34px; width:135px; color: #555;  font-size: 12px; line-height: 17px; text-align: center; overflow: hidden;}
+
+.view-prev{ position:absolute; top:50%; left:0;    background: url("../img/rec-arrow.png") no-repeat 21px -18px;; width: 16px;   content: ""; height: 24px; }
+.view-next{ position:absolute; top:50%; right:0;  background: url("../img/rec-arrow.png") no-repeat -12px -18px;;  width: 16px; content: ""; height: 24px;  }
+
+/*섹션 12 - 이 책을 구입한 회원이 구입한 책 목록*/
+.customer .area {width:980px; height:265px;padding: 0 32px 0 30px; position:relative;}
+
+.customer .cust-areawrap {width:918px; height:265px;  margin:0 auto; float:left; position:relative; }
+
+.customer .viewport {width:918px; height:265px; position:absolute;  overflow:hidden;}
+
+.customer .viewport ul {width: 100%; float:left; position: relative;}
+
+.customer .viewport li { margin: 15px 0 0 0; width:153px; height:234px;  float:left;}
+
+.customer .viewport .imgbox { width: 120px; height: 174px; margin: 0 auto; }
+
+.customer .viewport .imgbox> a img{width: 120px; height: 174px;}
+
+.customer .viewport .txt_wrap{ width: 135px; height:54px; margin: 6px auto 0 auto; }
+
+.customer .txt_wrap >.txt a{height: 34px; width:135px; color: #555;  font-size: 12px; line-height: 17px; text-align: center; overflow: hidden;}
+
+.cust-prev{ position:absolute; top:50%; left:0;    background: url("../img/rec-arrow.png") no-repeat 21px -18px;; width: 16px;   content: ""; height: 24px; }
+.cust-next{ position:absolute; top:50%; right:0;  background: url("../img/rec-arrow.png") no-repeat -12px -18px;;  width: 16px; content: ""; height: 24px;  }
+
+/*섹션 13-리뷰*/
+.star-review{background:url("../img/star-rate.png") repeat-x 0 -15px; display: inline-block;
+ height: 20px; width:89px; }
+ 
+.review{font-size: 24px; color: #333; letter-spacing: -1px;font-weight: normal; display: inline-block;line-height: 24px; margin: -1px 0 0 6px;  }
+.review span {  display: inline-block;  font-size: 12px;  color: #555;  margin: 7px 0 0 5px;}
+
+.right-btn {float:right; }
+
+ .right-btn  a  {display: inline-block; width: 90px;  height: 26px;  padding: 4px 0 0 0;  background-color: #e25147; border-top: 1px solid #e25147;  border-left: 1px solid #e25147; border-bottom: 1px solid #c81a14; border-right: 1px solid #c81a14;  font-size: 12px;  font-weight: bold;  color: #fff;  text-align: center;  text-decoration: none;}
+
+.reviewsort{width:980px; height:178px; padding: 33px 0 0 0; position:relative;}
+
+.reviewsort > ul{width:100px; height:40px; line-height:40px; text-align: right; position:absolute; top:0; right:0; }
+
+.reviewsort > ul > li {float:left; font-size:12px; padding: 0 10px 0 0; line-height:40px;}
+.reviewsort > ul > li:last-of-type{background: url("../img/sub/li.png") no-repeat left 2px; font-weight: normal; margin:0 4px; padding: 0 0 0 10px; line-height:40px;}
+
+.reviewsort> ul > li a {color: #666; text-decoration: none;}
+
+.reviewlist-ul {width:980px; height:145px;  border-top: 1px solid #ccc;}
+
+.reviewlist {position: relative; width:940px; height:144px; padding: 20px; border-bottom: 1px solid #ddd;}
+
+.titlebox{width:248px; height:19px;}
+
+.titlebox span {display:block;}
+
+.titlebox a {position: absolute; top:15%; left:12%;max-width: 600px;padding: 0 5px 0 10px;font-size: 14px;
+font-weight: bold;color: #333; line-height: 1.2; text-decoration: none;}
+
+.idbox {width:113px; height:13px; position: absolute;  right: 20px;  top: 20px; font-size: 11px;  color: #777; }
+
+.idbox > li{font-size: 11px; color: #777; display: inline-block; padding: 0 8px 0 0;}
+
+.idbox > li:last-of-type{background: url("../img/sub/li.png") no-repeat left 2px; font-weight: normal;     padding: 0 0 0 10px;}
+
+.review-content {width:940px; height:39px;  overflow:hidden;}
+
+.review-content span{font-size: 13px;  color: #555; line-height: 1.5;}
+
+.reply {width:940px; height:15px; margin-top:15px;  position:relative;}
+
+.reply > li{ float: left; padding: 0 10px;  background: url("../img/sub/li.png") no-repeat left 2px; border-bottom: 0;font-size: 12px; line-height:14px;
+    font-family: "dotum", "sans-serif";
+    color: #666;}
+
+.reply > li a { display: inline-block; font-size: 12px;
+    font-family: "dotum", "sans-serif"; line-height:14px;
+    color: #666;
+    width: 54px;
+    height: 15px;
+    background: url("../img/sub/recomend.png") no-repeat left -150px;
+    text-indent: -9999px;}
+    
+.reply > .txt_spread {position:absolute; top:0; right:0;}
+
+/*섹션 13-리뷰페이지*/
+
+.pagebox {width:980px; height:35px; ; margin-top: -1px;
+ padding-top: 0;  border-top: 1px solid #fff; position: relative;}
+
+.page{ text-align: center; margin: 0 auto;   position: absolute; top:0; left:35%; width:253px; height:34px;}
+
+.page a {width: 44px;height: 21px;margin-right: -1px;color: #666; padding: 12px 0 0 0; font-size: 12px;line-height: 12px;
+border-left: 1px #e5e5e5 solid;
+border-right: 1px #e5e5e5 solid; float:left;}
+.page .bt_ctr {height: 10px; width:41px;  position: relative;   top: 12px;  border: none;  background: url("../img/sub/btn_control.png") no-repeat;  cursor: pointer; display:inline-block; line-height:10px;}
+
+.page .pprev {  width: 32px; height: 10px; display:inline-block; margin-right: 13px; padding: 0 0 0 9px;  background-position: 0 0;}
+
+.page .prev {  width: 32px; height: 10px; display:inline-block; margin-right: 13px; padding: 0 0 0 9px;  background-position: 0 -14px;}
+
+.page .next { width: 32px; height: 10px; display:inline-block; margin-left: 13px; padding: 0 0 0 9px;  background-position: 0 -28px;}
+
+.page .nnext { width: 32px; height: 10px; display:inline-block; margin-left: 13px; padding: 0 0 0 9px;  background-position: 0 -42px;}
+
+.page .sel { margin: -1px -1px 0 0; position:relative; z-index: 3;  color: #fff;  width: 44px; height: 36px;  padding: 12px 0 0 0; border: 1px solid #555; background-color: #555;   font-weight: bold; text-align: center; display: inline-block;}
+
+/*섹션 14-100자평*/
+.respect { width: 978px; height:142px; margin-top: 20px; padding: 20px 0;  border: 1px solid #e3e3e3; background-color: #f9f9f9;}
+
+.checkbox {width:940px; height:16px; margin:0 auto; }
+
+.salexpect{display: inline-block; width:64px; height:16px; margin-right: 50px; }
+.salexpect label{font-size: 12px; line-height: 1.2;
+font-family: "dotum", "sans-serif";
+color: #666;}
+
+.star-check {width:123px; height:15px; display:inline-block;}
+
+.star-check .title{width:24px; height:14px;  font-size: 12px;
+    line-height:1.2;  color: #666; display: inline-block;}
+
+.star-check  .star-review {display: inline-block; width: 80px;  margin: 0 auto;  height: 14px; }
+
+.txt_area {width:935px; height:84px;  position:relative;}
+
+.txt_number {width: 808px; margin: 0 0 5px 0; text-align: right;}
+
+.txt_number span {color: #ababab; font-size:12px; line-height:1.2;}
+
+.txt_number textarea {float: left;
+    color: #999; font-size:12px; line-height:1.2;
+    width: 790px;
+    height: 41px;
+    padding: 8px;
+    margin: 0 auto;
+    resize: none;
+    border: none;
+    overflow-y: scroll;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;}
+
+.txt_number > a  {  float: left;  margin-left: 5px;  width: 116px;  height: 47px; border-left: 1px solid #ccc; border-top: 1px solid #ccc;  border-right: 1px solid #999;   border-bottom: 1px solid #999;  background-color: #fff; color: #333; font-size: 14px; margin-top: 10px; text-align:center; line-height:47px;}
+
+.txt_number .buttongray{
+margin-top: 10px; position:absolute; top:10%; right:0;}
+
+/*섹션15-판매자정보*/
+.saler_info {width:940px; height:14px;  margin: 20px;}
+
+.saler_info  li {font-family: "맑은 고딕", "Malgun Gothic", "나눔고딕", "Nanum Gothic", "Dotum", sans-serif; line-height: 1.2; font-size:12px; color:#666;}
+
+.saler_info .changerefund { height:278px;   width: 980px;  margin-top: 15px;  color: #666;  border: 1px solid #eee;  border-left: 0;  line-height: 1.7; }
+
+.saler_info .changerefund th{padding: 8px 0 10px 20px;
+background: #f9f9f9;
+border-bottom: 1px solid #eee;
+border-left: 1px solid #eee;
+}
+
+/*섹션 16-교환/환불*/
+
+/*섹션 17-배송 정보*/
+.shipguide {width:940px; height:114px; ; margin: 20px;}
+
+.shipguide li {margin-bottom: 7px;     padding: 0 0 0 8px;
+    background: url("../img/sub/fiedcell.gif") no-repeat left center;
+    color: #777;
+    font-size: 12px;}
